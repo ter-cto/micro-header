@@ -26,7 +26,6 @@ module.exports = {
         if (!isServer) {
             config.output.publicPath = "http://localhost:3001/_next/";
         }
-
         return config;
     },
 };
